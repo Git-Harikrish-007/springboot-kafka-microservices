@@ -43,3 +43,5 @@ docker-compose.override.yml
 HELP.md
 *.bak
 *.tmp
+
+.idea/
