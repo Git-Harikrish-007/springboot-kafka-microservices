@@ -1,0 +1,45 @@
+# Maven build output
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Logs
+*.log
+logs/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+
+# Environment and config
+.env
+*.local.yml
+application-*.yml
+application-*.properties
+
+# Kafka metadata (if generated locally)
+kafka-logs/
+meta.properties
+
+# Docker artifacts
+*.pid
+*.seed
+*.lock
+docker-compose.override.yml
+
+# STS workspace artifacts
+*.classpath
+*.project
+.settings/
+
+# Misc
+HELP.md
+*.bak
+*.tmp
